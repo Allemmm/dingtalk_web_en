@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>DemoDesign</title>
+	    <script type="text/javascript">
+			if (navigator.userAgent.match(/iPhone|iPad|iPod/i){
+			console.log("mobil device")
+			function Redirect(){
+				window.location=""}
+			}
+			
+		</script>
+		<!--stylesheet!-->
+		<link href="C:\Users\Allen\Desktop/bootstrap.min.css" rel="stylesheet">
+		<link href="myDemo.css" rel="stylesheet" type="text/css">
+	</head>
+	
+	<body>
+
+		<div class="navbar navbar-default navbar-fixed-top">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#">Website Title</a>
+				</div>
+				<div class="navbar-collapse collapse navbar-right">
+				 <ul class="nav navbar-nav">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="about">About</a></li>
+					<li><a href="#contact">Contact</a></li>
+					<li class="dropdown">
+					  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+					  <ul class="dropdown-menu">
+						<li><a href="#">Action</a></li>
+						<li><a href="#">Another action</a></li>
+						<li><a href="#">Something else here</a></li>
+						<li class="divider"></li>
+						<li class="dropdown-header">Nav header</li>
+						<li><a href="#">Separated link</a></li>
+						<li><a href="#">One more separated link</a></li>
+					  </ul>
+					</li>
+				 
+					<li><a href="#"><button type="button" class="btn btn-trial">Sign Up</button></a></li>
+					<li><a href="#"><button type="button" class="btn btn-trial">Log In</button></a></li>
+				 </ul>
+				</div>
+			</div>
+		</div><!--navigation!-->
+		
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+		  <!-- Indicators -->
+		  <ol class="carousel-indicators">
+			<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+		  </ol>
+
+		  <!-- Wrapper for slides -->
+		  <div class="carousel-inner">
+			<div class="item active">
+			  <img src="http://placehold.it/1300x500" alt="...">
+			  <div class="carousel-caption">
+				<h3>Caption Text</h3>
+			  </div>
+			</div>
+			<div class="item">
+			  <img src="http://placehold.it/1300x500" alt="...">
+			  <div class="carousel-caption">
+				<h3>Caption Text</h3>
+			  </div>
+			</div>
+			<div class="item">
+			  <img src="http://placehold.it/1300x500" alt="...">
+			  <div class="carousel-caption">
+				<h3>Caption Text</h3>
+			  </div>
+			</div>
+		  </div>
+
+		  <!-- Controls -->
+		  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left"></span>
+		  </a>
+		  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right"></span>
+		  </a>
+		</div> <!-- Carousel -->
+		
+		<!--DownloadIcons!-->
+		<div class="container" id="download">
+			<div class="row text-center">
+				<div class="col-md-2 col-md-offset-1">
+					<hr>
+					<div id="ios"><a href="https://itunes.apple.com/cn/app/ding-ding/id930368978?mt=8"><img class= "img-thumbnail" src="ios.png" onmouseover="this.src='iosqr.png'" onmouseout="this.src='ios.png'"></div>
+					<h5>iOS Version</br><small>description</small></h5></a>
+				</div>
+				<div class="col-md-2">
+					<hr>
+					<a href="#" id="android"><img class="img-thumbnail" src="android.png" onmouseover="this.src='androidqr.png'" onmouseout="this.src='android.png'">
+					<h5>Android Version</br><small>description</small></h5></a>
+				</div>
+				<div class="col-md-2">
+					<hr>
+					<a href="#" id="windows"><img class="img-thumbnail" src="windows.png" onmouseover="this.src='download.png'" onmouseout="this.src='windows.png'">
+					<h5>Windows Version</br><small>description</small></h5></a>
+				</div>
+				<div class="col-md-2">
+					<hr>
+					<a href="#"id="mac"><img class="img-thumbnail" src="mac.png" onmouseover="this.src='download.png'" onmouseout="this.src='mac.png'">
+					<h5>Mac Version</br><small>description</small></h5></a>
+				</div>
+				<div class="col-md-2">
+					<hr>
+					<a href="#" id="online"><img class= "img-thumbnail" src="online.png" onmouseover="this.src='webd.png'" onmouseout="this.src='online.png'">
+					<h5>Online Version</br><small>description</small></h5></a>
+				</div>
+			</div>
+		</div><!--DownloadIcons!-->
+		
+		<div class="jumbotron">
+			<div class="container">
+				<div class="row">
+					</br>
+					</br>
+					<h1>Jumbotron Header</h1>
+					<h2><small>Header Description</small></h2>
+					<hr>
+				</div>
+			</div>
+		</div>
+		
+		<!--BodySection!-->
+		<div class="container-fluid" id="mainContent">
+			<div class="row">
+				<div class="col-md-4 col-md-offset-1 text-center">
+					<hr><img src="http://placehold.it/300x300">
+				</div>
+				<div class="col-md-6 text-center">
+					<hr><br>
+					<h2>Picture Title</br><small>--description</small></h2>
+					<p></br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in aliquam arcu. Proin et metus nulla. Duis lobortis diam sit amet enim consectetur pellentesque. Suspendisse ultricies sapien mattis mauris mattis tempus. Vivamus consectetur arcu id nibh tincidunt vehicula. Vivamus felis ipsum, interdum a urna sit amet, ullamcorper dignissim nisl. Nam pretium arcu a lacus fermentum, in facilisis tellus tincidunt. Donec ac lacinia enim, id mollis tellus. Ut ac neque id risus mattis cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lacus nibh, porta eu dictum ut, pharetra iaculis nunc.</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-6 col-md-offset-1 text-center">
+					<hr><br>
+					<h2>Picture Title</br><small>--description</small></h2>
+					<p></br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in aliquam arcu. Proin et metus nulla. Duis lobortis diam sit amet enim consectetur pellentesque. Suspendisse ultricies sapien mattis mauris mattis tempus. Vivamus consectetur arcu id nibh tincidunt vehicula. Vivamus felis ipsum, interdum a urna sit amet, ullamcorper dignissim nisl. Nam pretium arcu a lacus fermentum, in facilisis tellus tincidunt. Donec ac lacinia enim, id mollis tellus. Ut ac neque id risus mattis cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lacus nibh, porta eu dictum ut, pharetra iaculis nunc.</p>
+				</div>
+				<div class="col-md-4 text-center">
+					<hr>
+					<img src="http://placehold.it/300x300">
+				</div>
+			</div>
+		
+			<div class="row">
+				<div class="col-md-7 col-md-offset-1">
+					<hr>
+					<img src="http://placehold.it/700x700">
+					<hr>
+				</div>
+				<div class="col-md-2">
+					<hr>
+					<br>
+					<h2>Picture Title</h2>
+					<h2><small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porttitor enim in erat bibendum, at ornare.</small></h2>
+					<hr>
+				</div>
+			</div>
+		</div><!--BodySection!-->
+		
+		<div class="footer">
+			<div class="container-fluid text-center footer">
+				<div class="row">
+					<div class="col-md-2 col-md-offset-1 text-left">
+						<dl>
+							<dt>Navigation</dt>
+							<dd><a href="#">Features Overview</a></dd>
+							<dd><a href="#">Successful Cases</a></dd>
+							<dd><a href="#">Open Platform</a></dd>
+						</dl>
+					</div>
+					<div class="col-md-2">
+						<dl>
+							<dt>News</dt>
+								<dd><a href="#">Service Terms</a></dd>
+								<dd><a href="#">DingTalk Convention</a></dd>
+								<dd><a href="#">DingTalk Social</a></dd>
+						</dl>
+					</div>
+					<div class="col-md-2">
+						<dl>
+							<dt>User Support</dt>
+						</dl>
+					</div>
+					<div class="col-md-2">
+						<dl>
+							<dt>Resource Download</dt>
+						</dl>
+					</div>
+					<div class="col-md-2">
+						<dl>
+							<dt>Contact Us</dt>
+						</dl>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<!--script!-->
+		<script src="C:\Users\Allen\Desktop/jquery-3.1.0.min.js"></script>
+		<script src="C:\Users\Allen\Desktop/bootstrap.min.js"></script>
+
+		<script src="C:\Users\Allen\Desktop\bootstrap-autohidingnavbar-master\src/jquery.bootstrap-autohidingnavbar.js"></script>
+		
+		<script>
+		  $("div.navbar-fixed-top").autoHidingNavbar();
+		</script>
+	</body>
+	
